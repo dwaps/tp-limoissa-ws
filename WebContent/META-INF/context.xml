@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+	<Resource
+		name="jdbc/db_limoissa"
+		type="javax.sql.DataSource"
+		auth="Container"
+		
+		username="dwaps"
+		password="123456"
+		url="jdbc:mysql://localhost:3306/limoissa?useSSL=false&amp;verifyServerCertificate=false&amp;requireSSL=false"
+		driverClassName="com.mysql.jdbc.Driver"
+		
+		maxIdle="10"
+		maxTotal="100"
+		maxWaitMillis="5000" />
+</Context>
